@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+main {
+  min-height: 80vh;
+}
+
+.bg-dark {
+  background-color: #298b4b !important;
+}
+nav {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+}
+.nav-link {
+  color: #fff !important;
+}
+.nav-link:hover {
+  color: #69c489 !important;
+}
+
+.brand-logo {
+  -webkit-filter: brightness(0) invert(1);
+  width: 40px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+.text-success {
+  color: #298b4b;
+}
+body {
+  /* background: url(./background.png) no-repeat center center fixed; */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #d6d6e3;
+  font-family: 'PT Sans', sans-serif;
+}
+.modal-background {
+  background-color: #d6d6e3;
+}
+.nav-top {
+  background-color: #ffffff;
+}
+.navbar-toggler {
+  box-shadow: none;
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+  border: #298b4b solid 1px;
+}
+#home h1 {
+  font-family: 'Yatra One', cursive !important;
+}
+.icon-color {
+  color: #fcfcfc;
+}
+.bg-success,
+.btn-success {
+  background-color: #298b4b;
+}
+.text-success {
+  color: #298b4b;
+}
+p {
+  line-height: 1.8rem;
+}
+.service-img {
+  transition: 0.5s ease-in-out;
+}
+.service-img:hover {
+  transform: scale(1.1);
+}
+
+#process img {
+  transition: 0.5s ease-in-out;
+}
+#process img:hover {
+  transform: scale(1.05);
+}
+
+.work-link,
+.footer {
+  color: #298b4b !important;
+}
+
+.work-link:hover {
+  color: #125028 !important;
+}
+.card {
+  overflow: hidden;
+}
+.work-img {
+  transition: 0.5s ease-in-out;
+}
+.work-img:hover {
+  transform: scale(1.05);
+}
+
+.contact-icon {
+  font-size: 300%;
+  transition: 0.5s ease-in-out;
+}
+
+.contact-icon:hover {
+  transform: scale(1.07);
+}
+.contact-us-links {
+  text-decoration: none;
+  color: #111;
+}
+
+/* AUTH */
+
+button {
+  border-radius: 0 !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+input {
+  border-radius: 0 !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0.7rem !important;
+}
+
+a {
+  text-decoration: none;
+  color: #298b4b;
+}
+a:hover {
+  color: #298b4b;
+}
+
+label {
+  opacity: 0.5;
+}
+.dropdown-menu {
+  background-color: transparent;
+}
+.dropdown-item {
+  color: #fff;
+}
+.dropdown-item:hover {
+  background-color: #298b4b;
+  color: #fff;
+}
+
+.dropdown-menu,
+.alert,
+.toast {
+  border-radius: 0 !important;
+  border: none;
+}
+
+.disabled {
+  pointer-events: none;
+  opacity: 0.6;
+}
+.styles_wrapper__1kG3C {
+  background-color: transparent !important;
+  min-height: auto !important;
+}
+
+#clients img {
+  filter: grayscale(100%);
+  transition: 0.5s ease-in-out;
+}
+#clients img:hover {
+  filter: grayscale(0%);
+}
