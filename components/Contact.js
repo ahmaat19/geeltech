@@ -16,7 +16,7 @@ const About = () => {
             <h2 className='fw-bold'>
               Lets Get Started <br /> Your Project
             </h2>
-            <p className='fw-lighter pt-3'>
+            <p className='pt-3'>
               We will help to achieve your goals and to grow your business
             </p>
 
@@ -37,7 +37,7 @@ const About = () => {
               <FaMobileAlt className='contact-icon mx-auto custom-text-primary' />
               <div className='card-body'>
                 <h5 className='card-title custom-text-primary'>Call Us </h5>
-                <p className='card-text fw-lighter'>
+                <p className='card-text'>
                   <a
                     className='text-decoration-none custom-text-primary'
                     href='tel:+252615301507'
@@ -61,7 +61,7 @@ const About = () => {
               <FaPenAlt className='contact-icon mx-auto custom-text-primary' />
               <div className='card-body'>
                 <h5 className='card-title custom-text-primary'>Write Us </h5>
-                <p className='card-text fw-lighter'>
+                <p className='card-text'>
                   <a
                     className='text-decoration-none custom-text-primary'
                     href='mailto:info@websom.dev'
@@ -85,7 +85,7 @@ const About = () => {
               <FaMapMarkedAlt className='contact-icon mx-auto custom-text-primary' />
               <div className='card-body'>
                 <h5 className='card-title custom-text-primary'>Visit Us </h5>
-                <p className='card-text fw-lighter'>
+                <p className='card-text'>
                   <span>
                     Makka Almukaramh <br /> Mogadishu, Somalia
                   </span>

@@ -10,7 +10,7 @@ const About = () => {
               We are the one of the most effective Web Development Companies in
               Somalia.
             </h2>
-            <p className='fw-lighter fs-6 '>
+            <p className='fs-6 '>
               Getting online is easy. Succeeding online is a different story.
               You’ll need more than just a beautiful website to stand out these
               days. <br />

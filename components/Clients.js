@@ -8,7 +8,7 @@ const Clients = () => {
         <div className='row'>
           <div className='col-lg-8 col-md-9 col-12 mx-auto'>
             <h2 className='fw-bold'> Our Clients </h2>
-            <p className='fw-lighter fs-6 '>
+            <p className='fs-6 '>
               The image is important, but the quality with which it is made,
               even more! This is why our work has made a valuable contribution
               to many realities:

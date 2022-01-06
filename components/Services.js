@@ -68,7 +68,7 @@ const Services = () => {
                   <h5 className='card-title custom-text-primary'>
                     {service.title}{' '}
                   </h5>
-                  <p className='card-text fw-lighter'>{service.description}</p>
+                  <p className='card-text'>{service.description}</p>
                 </div>
               </div>
             </div>
