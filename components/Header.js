@@ -6,7 +6,7 @@ const Header = () => {
   const guestLinks = (
     <>
       <ul className='navbar-nav ms-auto mb-2 mb-lg-0'>
-        <li className='nav-item '>
+        {/* <li className='nav-item '>
           <Link
             className='nav-link  active '
             aria-current='page'
@@ -38,15 +38,23 @@ const Header = () => {
               Contact Us
             </a>
           </Link>
+        </li> */}
+
+        <li className='nav-item '>
+          <Link className='nav-link  active ' aria-current='page' href='/blog'>
+            <a className='nav-link  active ' aria-current='page'>
+              Blog
+            </a>
+          </Link>
         </li>
 
         <li className='nav-item'>
           <a
-            className='nav-link   btn btn-success rounded-pill shadow py-2'
+            className='nav-link btn btn-primary btn-sm rounded-pill shadow-lg py-1 mt-1 border border-secondary'
             aria-current='page'
-            href='mailto:info@geeltech.com'
+            href='mailto:info@websom.dev'
           >
-            <FaEnvelope className='icon-color' /> info@geeltech.com
+            <FaEnvelope className='icon-color mb-1' /> info@websom.dev
           </a>
         </li>
       </ul>
@@ -55,16 +63,16 @@ const Header = () => {
 
   return (
     <>
-      <nav className='navbar navbar-expand-lg navbar-dark bg-dark sticky-top'>
+      <nav className='navbar navbar-expand-sm navbar-dark bg-primary sticky-top'>
         <div className='container'>
           <Link className='navbar-brand' href='/'>
             <a>
               <Image
                 priority
-                width='30'
+                width='40'
                 height='40'
-                src='/images/logo.png'
-                className='img-fluid brand-logo'
+                src='/favicon.png'
+                className='img-fluid brand-logos'
                 alt='logo'
               />
             </a>

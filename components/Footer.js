@@ -1,4 +1,4 @@
-import React from 'react'
+import Image from 'next/image'
 
 const Footer = () => {
   const date = new Date()
@@ -13,6 +13,8 @@ const Footer = () => {
           </div>
         </div>
       </div>
+
+      <div id='watermark'></div>
     </footer>
   )
 }

@@ -56,11 +56,8 @@ const About = () => {
               <div className='card-body'>
                 <h5 className='card-title text-success'>Write Us </h5>
                 <p className='card-text fw-lighter'>
-                  <a
-                    className='contact-us-links'
-                    href='mailto:info@geeltech.com'
-                  >
-                    info@geeltech.com
+                  <a className='contact-us-links' href='mailto:info@websom.dev'>
+                    info@websom.dev
                   </a>
                   <br />
                   <a

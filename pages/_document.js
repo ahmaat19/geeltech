@@ -33,7 +33,7 @@ class MyDocument extends Document {
           <link rel='icon' href='/favicon.png' />
           <meta name='viewport' content='width=device-width, initial-scale=1' />
           <meta name='theme-color' content='#000000' />
-          <link rel='canonical' href='https://geeltech.com/' />
+          <link rel='canonical' href='https://websom.dev/' />
         </Head>
         <body>
           <Main />
