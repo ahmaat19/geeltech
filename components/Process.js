@@ -10,7 +10,7 @@ const Strategies = () => {
         <div className='container'>
           <div className='row gy-5 pt-3 mt-3'>
             <div className='col-lg-4 col-md-4 col-sm-12 col-12 py-2 my-auto'>
-              <h1 className='text-light'>
+              <h1>
                 <span
                   className='fw-bolder custom-text-primary'
                   style={{ fontSize: '300%' }}
@@ -30,7 +30,7 @@ const Strategies = () => {
                 className='img-fluid rounded-3 border custom-border-primary border-5 process-img'
               />
             </div>
-            <div className='col-lg-4 col-md-4 col-sm-12 col-12 py-2 custom-text-primary fw-light my-auto text-start'>
+            <div className='col-lg-4 col-md-4 col-sm-12 col-12 py-2 custom-text-primary my-auto text-start'>
               <p>
                 We define your competition and target audience. Discover what is
                 working in your online industry, then design your website
@@ -38,7 +38,7 @@ const Strategies = () => {
               </p>
             </div>
 
-            <div className='col-lg-4 col-md-4 col-sm-12 col-12 py-2 custom-text-primary fw-light my-auto text-end'>
+            <div className='col-lg-4 col-md-4 col-sm-12 col-12 py-2 custom-text-primary my-auto text-end'>
               <p>
                 Color scheme, layout, sitemap, and style. We will bring your
                 brand to life with a one of a kind masterpiece, built just for
@@ -57,7 +57,7 @@ const Strategies = () => {
               />
             </div>
             <div className='col-lg-4 col-md-4 col-sm-12 col-12 py-2 my-auto'>
-              <h1 className='text-light'>
+              <h1>
                 Design
                 <span
                   className='fw-bolder custom-text-primary'
@@ -69,7 +69,7 @@ const Strategies = () => {
             </div>
 
             <div className='col-lg-4 col-md-4 col-sm-12 col-12 py-2 my-auto'>
-              <h1 className='text-light'>
+              <h1>
                 <span
                   className='fw-bolder custom-text-primary'
                   style={{ fontSize: '300%' }}
@@ -89,7 +89,7 @@ const Strategies = () => {
                 className='img-fluid rounded-3 border custom-border-primary border-5'
               />
             </div>
-            <div className='col-lg-4 col-md-4 col-sm-12 col-12 py-2 custom-text-primary fw-light my-auto text-start'>
+            <div className='col-lg-4 col-md-4 col-sm-12 col-12 py-2 custom-text-primary my-auto text-start'>
               <p>
                 {`
                 
@@ -100,7 +100,7 @@ const Strategies = () => {
               </p>
             </div>
 
-            <div className='col-lg-4 col-md-4 col-sm-12 col-12 py-2 custom-text-primary fw-light my-auto text-end'>
+            <div className='col-lg-4 col-md-4 col-sm-12 col-12 py-2 custom-text-primary my-auto text-end'>
               <p>
                 {`
                 This is where you go live, to the world. Design, marketing, and
@@ -120,7 +120,7 @@ const Strategies = () => {
               />
             </div>
             <div className='col-lg-4 col-md-4 col-sm-12 col-12 py-2 my-auto'>
-              <h1 className='text-light'>
+              <h1>
                 Support
                 <span
                   className='fw-bolder custom-text-primary'

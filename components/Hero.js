@@ -20,7 +20,7 @@ const Hero = () => {
           </div>
           <div className='text-center my-4'>
             <h1 className='fw-bold display-5'>Build Your Empire</h1>
-            <p className='fw-light fs-5'>
+            <p className='fs-4'>
               We Offer Modern Solutions For Growing Your Business
             </p>
           </div>
