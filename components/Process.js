@@ -5,16 +5,14 @@ const Strategies = () => {
   return (
     <div id='process' className='pt-5'>
       <div className='container-fluid  my-5 text-center '>
-        <h2 className='fw-bold '>
-          Our <span className='text-success'>Process</span>
-        </h2>
+        <h2 className='fw-bold '>Our Process</h2>
 
         <div className='container'>
           <div className='row gy-5 pt-3 mt-3'>
             <div className='col-lg-4 col-md-4 col-sm-12 col-12 py-2 my-auto'>
               <h1 className='text-light'>
                 <span
-                  className='fw-bolder text-success'
+                  className='fw-bolder custom-text-primary'
                   style={{ fontSize: '300%' }}
                 >
                   01
@@ -25,14 +23,14 @@ const Strategies = () => {
             <div className='col-lg-4 col-md-4 col-sm-12 col-12 py-2 my-auto process'>
               <Image
                 priority
-                width='200'
-                height='180'
+                width='180'
+                height='160'
                 src='/images/strategy.jpg'
                 alt='Strategy'
-                className='img-fluid rounded-3 border border-success border-5 process-img'
+                className='img-fluid rounded-3 border custom-border-primary border-5 process-img'
               />
             </div>
-            <div className='col-lg-4 col-md-4 col-sm-12 col-12 py-2 text-success fw-light my-auto text-start'>
+            <div className='col-lg-4 col-md-4 col-sm-12 col-12 py-2 custom-text-primary fw-light my-auto text-start'>
               <p>
                 We define your competition and target audience. Discover what is
                 working in your online industry, then design your website
@@ -40,7 +38,7 @@ const Strategies = () => {
               </p>
             </div>
 
-            <div className='col-lg-4 col-md-4 col-sm-12 col-12 py-2 text-success fw-light my-auto text-end'>
+            <div className='col-lg-4 col-md-4 col-sm-12 col-12 py-2 custom-text-primary fw-light my-auto text-end'>
               <p>
                 Color scheme, layout, sitemap, and style. We will bring your
                 brand to life with a one of a kind masterpiece, built just for
@@ -51,18 +49,18 @@ const Strategies = () => {
             <div className='col-lg-4 col-md-4 col-sm-12 col-12 py-2 my-auto'>
               <Image
                 priority
-                width='200'
-                height='180'
+                width='180'
+                height='160'
                 src='/images/design.jpg'
                 alt='Design'
-                className='img-fluid rounded-3 border border-success border-5'
+                className='img-fluid rounded-3 border custom-border-primary border-5'
               />
             </div>
             <div className='col-lg-4 col-md-4 col-sm-12 col-12 py-2 my-auto'>
               <h1 className='text-light'>
                 Design
                 <span
-                  className='fw-bolder text-success'
+                  className='fw-bolder custom-text-primary'
                   style={{ fontSize: '300%' }}
                 >
                   02
@@ -73,7 +71,7 @@ const Strategies = () => {
             <div className='col-lg-4 col-md-4 col-sm-12 col-12 py-2 my-auto'>
               <h1 className='text-light'>
                 <span
-                  className='fw-bolder text-success'
+                  className='fw-bolder custom-text-primary'
                   style={{ fontSize: '300%' }}
                 >
                   03
@@ -84,14 +82,14 @@ const Strategies = () => {
             <div className='col-lg-4 col-md-4 col-sm-12 col-12 py-2 my-auto'>
               <Image
                 priority
-                width='200'
-                height='180'
+                width='180'
+                height='160'
                 src='/images/develop.jpg'
                 alt='Develop'
-                className='img-fluid rounded-3 border border-success border-5'
+                className='img-fluid rounded-3 border custom-border-primary border-5'
               />
             </div>
-            <div className='col-lg-4 col-md-4 col-sm-12 col-12 py-2 text-success fw-light my-auto text-start'>
+            <div className='col-lg-4 col-md-4 col-sm-12 col-12 py-2 custom-text-primary fw-light my-auto text-start'>
               <p>
                 {`
                 
@@ -102,7 +100,7 @@ const Strategies = () => {
               </p>
             </div>
 
-            <div className='col-lg-4 col-md-4 col-sm-12 col-12 py-2 text-success fw-light my-auto text-end'>
+            <div className='col-lg-4 col-md-4 col-sm-12 col-12 py-2 custom-text-primary fw-light my-auto text-end'>
               <p>
                 {`
                 This is where you go live, to the world. Design, marketing, and
@@ -114,18 +112,18 @@ const Strategies = () => {
             <div className='col-lg-4 col-md-4 col-sm-12 col-12 py-2 my-auto'>
               <Image
                 priority
-                width='200'
-                height='180'
+                width='180'
+                height='160'
                 src='/images/support.jpg'
                 alt='Support'
-                className='img-fluid rounded-3 border border-success border-5'
+                className='img-fluid rounded-3 border custom-border-primary border-5'
               />
             </div>
             <div className='col-lg-4 col-md-4 col-sm-12 col-12 py-2 my-auto'>
               <h1 className='text-light'>
                 Support
                 <span
-                  className='fw-bolder text-success'
+                  className='fw-bolder custom-text-primary'
                   style={{ fontSize: '300%' }}
                 >
                   04

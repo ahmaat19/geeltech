@@ -4,7 +4,7 @@
 :root {
   --primary-color: #142f43;
   --secondary-color: #daddfc;
-  --white-color: #aaaaae;
+  --white-color: #353535;
 }
 
 * {
@@ -16,12 +16,13 @@
 
 main {
   min-height: 80vh;
+  color: var(--white-color) !important;
 }
 
-.bg-primary,
+.custom-bg-primary,
 .btn-primary {
   background-color: var(--primary-color) !important;
-  border: none;
+  border: none !important;
 }
 nav {
   padding-top: 10px !important;
@@ -40,8 +41,11 @@ nav {
   box-shadow: none !important;
 }
 
-.text-primary {
+.custom-text-primary {
   color: var(--primary-color) !important;
+}
+.custom-border-primary {
+  border-color: var(--primary-color) !important;
 }
 body {
   background-image: url('/background.png');
@@ -77,22 +81,8 @@ p {
   transform: scale(1.05);
 }
 
-.work-link,
-.footer {
-  color: #298b4b !important;
-}
-
-.work-link:hover {
-  color: #125028 !important;
-}
 .card {
   overflow: hidden;
-}
-.work-img {
-  transition: 0.5s ease-in-out;
-}
-.work-img:hover {
-  transform: scale(1.05);
 }
 
 .contact-icon {

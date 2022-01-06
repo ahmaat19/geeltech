@@ -28,14 +28,11 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Geel Tech | Software Development Company </title>
-        <meta
-          name='description'
-          content=' Geel Tech | Software Development Company'
-        />
+        <title>Websom | Web Design Company </title>
+        <meta name='description' content=' Websom | Web Design Company' />
         <meta
           name='keywords'
-          content='software development, web development, web design, seo optimization, marketing branding, ecommerce, geel tech'
+          content='software development, web development, web design, seo optimization, marketing branding, e-commerce, geel tech, geeltech, websom, web som, web designing, web, web development company, somali, web development company in somalia'
         />
         <meta
           name='description'

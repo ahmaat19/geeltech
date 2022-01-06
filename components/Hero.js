@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 const Hero = () => {
   return (
-    <header id='home' className='py-3'>
+    <header id='home' className=''>
       <div className='row'>
         <div className='col-lg-8 col-md-9 col-12 mx-auto pb-5'>
           <div className='text-center'>

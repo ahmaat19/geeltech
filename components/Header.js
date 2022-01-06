@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { FaEnvelope } from 'react-icons/fa'
+import { FaBlog, FaEnvelope } from 'react-icons/fa'
 import Image from 'next/image'
 
 const Header = () => {
@@ -43,7 +43,7 @@ const Header = () => {
         <li className='nav-item '>
           <Link className='nav-link  active ' aria-current='page' href='/blog'>
             <a className='nav-link  active ' aria-current='page'>
-              Blog
+              <FaBlog className='mb-1' /> Blog
             </a>
           </Link>
         </li>
@@ -63,7 +63,7 @@ const Header = () => {
 
   return (
     <>
-      <nav className='navbar navbar-expand-sm navbar-dark bg-primary sticky-top'>
+      <nav className='navbar navbar-expand-sm navbar-dark custom-bg-primary sticky-top'>
         <div className='container'>
           <Link className='navbar-brand' href='/'>
             <a>
