@@ -7,8 +7,7 @@ const About = () => {
         <div className='row'>
           <div className='col-lg-8 col-md-9 col-12 mx-auto'>
             <h2 className='fw-bold'>
-              We are the one of the most effective Web Development Companies in
-              Somalia.
+            We are one of the most effective Web Development Companies in Somalia.
             </h2>
             <p className='fs-6 '>
               Getting online is easy. Succeeding online is a different story.

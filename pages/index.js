@@ -1,5 +1,4 @@
 import { useEffect } from 'react'
-import Head from 'next/head'
 
 import About from '../components/About'
 import Services from '../components/Services'
@@ -29,19 +28,6 @@ export default function Home() {
   
   return (
     <>
-      <Head>
-        <title>Websom | Web Design Company </title>
-        <meta name='description' content=' Websom | Web Design Company' />
-        <meta
-          name='keywords'
-          content='software development, web development, web design, seo optimization, marketing branding, e-commerce, geel tech, geeltech, websom, web som, web designing, web, web development company, somali, web development company in somalia'
-        />
-        <meta
-          name='description'
-          content='We are the one of the most effective Web Development Company'
-        />
-        <link rel='icon' href='/favicon.png' />
-      </Head>
       <Header />
       <main className='my-5 py-5 container'>
         <Hero />
