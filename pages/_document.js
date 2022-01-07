@@ -53,20 +53,20 @@ class MyDocument extends Document {
         {/* <!-- Google / Search Engine Tags --> */}
         <meta itemprop="name" content="Websom - Web Design Company"/>
         <meta itemprop="description" content="We are one of the most effective Web Development Companies in Somalia"/>
-        <meta itemprop="image" content="/logo.png"/>
+        <meta itemprop="image" content="https://www.websom.dev/favicon.png"/>
 
         {/* <!-- Facebook Meta Tags --> */}
         <meta property="og:url" content="https://www.websom.dev"/>
         <meta property="og:type" content="website"/>
         <meta property="og:title" content="Websom - Web Design Company"/>
         <meta property="og:description" content="We are one of the most effective Web Development Companies in Somalia"/>
-        <meta property="og:image" content="/logo.png"/>
+        <meta property="og:image" content="https://www.websom.dev/favicon.png"/>
 
         {/* <!-- Twitter Meta Tags --> */}
         <meta name="twitter:card" content="summary_large_image"/>
         <meta name="twitter:title" content="Websom - Web Design Company"/>
         <meta name="twitter:description" content="We are one of the most effective Web Development Companies in Somalia"/>
-        <meta name="twitter:image" content="/logo.png"/>
+        <meta name="twitter:image" content="https://www.websom.dev/favicon.png"/>
 
         {/* <!-- Meta Tags Generated via http://heymeta.com --> */}
 
