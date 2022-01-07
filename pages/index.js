@@ -25,6 +25,8 @@ export default function Home() {
       s0.parentNode.insertBefore(s1, s0)
     })()
   }, [])
+
+  
   return (
     <>
       <Head>
