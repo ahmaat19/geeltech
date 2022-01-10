@@ -33,18 +33,7 @@ class MyDocument extends Document {
           <meta name='language' content='English' />
           <meta name='viewport' content='width=device-width, initial-scale=1' />
           <meta name='theme-color' content='#000000' />
-          <link rel='canonical' href='https://websom.dev/' />
-
-          <meta
-            name='keywords'
-            content='software development, web development, web design, seo optimization, marketing branding, e-commerce, geel tech, geeltech, websom, web som, web designing, web, web development company, somali, web development company in somalia'
-          />
-          <meta
-            name='description'
-            content='We are one of the most effective Web Development Companies in Somalia'
-          />
-          <meta name='robots' content='index, follow' />
-          <link rel='icon' href='/favicon.png' />
+          <link rel='canonical' href='https://websom.dev' />
 
           <title>
             Web Design Agency & Web Development Solutions In Somalia | websom
@@ -57,6 +46,13 @@ class MyDocument extends Document {
             name='description'
             content='We are one of the most effective Web Development Companies in Somalia'
           />
+
+          <meta
+            name='keywords'
+            content='software development, web development, web design, seo optimization, marketing branding, e-commerce, geel tech, geeltech, websom, web som, web designing, web, web development company, somali, web development company in somalia'
+          />
+          <meta name='robots' content='index, follow' />
+          <link rel='icon' href='/favicon.png' />
 
           {/* <!-- Google / Search Engine Tags --> */}
           <meta
