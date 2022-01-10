@@ -19,9 +19,12 @@ const Hero = () => {
             />
           </div>
           <div className='text-center my-4'>
-            <h1 className='fw-bold display-5'>Build Your Empire</h1>
-            <p className='fs-4'>
-              We Offer Modern Solutions For Growing Your Business
+            <h1 className='fw-bold display-5'>
+              Empowering Business with Innovation
+            </h1>
+            <p className='fs-5 pt-3'>
+              We help the most admired brands in Somalia in building digital
+              solutions that deliver amazing customer experiences
             </p>
           </div>
           <div className='text-center mt-5'>

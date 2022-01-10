@@ -10,7 +10,7 @@ const Strategies = () => {
         <div className='container'>
           <div className='row gy-5 pt-3 mt-3'>
             <div className='col-lg-4 col-md-4 col-sm-12 col-12 py-2 my-auto'>
-              <h1>
+              <h2>
                 <span
                   className='fw-bolder custom-text-primary'
                   style={{ fontSize: '300%' }}
@@ -18,7 +18,7 @@ const Strategies = () => {
                   01
                 </span>
                 Strategy
-              </h1>
+              </h2>
             </div>
             <div className='col-lg-4 col-md-4 col-sm-12 col-12 py-2 my-auto process'>
               <Image
@@ -57,7 +57,7 @@ const Strategies = () => {
               />
             </div>
             <div className='col-lg-4 col-md-4 col-sm-12 col-12 py-2 my-auto'>
-              <h1>
+              <h2>
                 Design
                 <span
                   className='fw-bolder custom-text-primary'
@@ -65,11 +65,11 @@ const Strategies = () => {
                 >
                   02
                 </span>
-              </h1>
+              </h2>
             </div>
 
             <div className='col-lg-4 col-md-4 col-sm-12 col-12 py-2 my-auto'>
-              <h1>
+              <h2>
                 <span
                   className='fw-bolder custom-text-primary'
                   style={{ fontSize: '300%' }}
@@ -77,7 +77,7 @@ const Strategies = () => {
                   03
                 </span>
                 Develop
-              </h1>
+              </h2>
             </div>
             <div className='col-lg-4 col-md-4 col-sm-12 col-12 py-2 my-auto'>
               <Image
@@ -120,7 +120,7 @@ const Strategies = () => {
               />
             </div>
             <div className='col-lg-4 col-md-4 col-sm-12 col-12 py-2 my-auto'>
-              <h1>
+              <h2>
                 Support
                 <span
                   className='fw-bolder custom-text-primary'
@@ -128,7 +128,7 @@ const Strategies = () => {
                 >
                   04
                 </span>
-              </h1>
+              </h2>
             </div>
           </div>
         </div>
