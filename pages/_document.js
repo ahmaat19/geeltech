@@ -49,7 +49,7 @@ class MyDocument extends Document {
 
           <meta
             name='keywords'
-            content='software development, web development, web design, seo optimization, marketing branding, e-commerce, geel tech, geeltech, websom, web som, web designing, web, web development company, somali, web development company in somalia'
+            content='software development, web development, web design, seo optimization, marketing branding, e-commerce, websom, web som, web designing, web, web development company, somali, web development company in somalia'
           />
           <meta name='robots' content='index, follow' />
           <link rel='icon' href='/favicon.png' />
