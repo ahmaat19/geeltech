@@ -30,17 +30,17 @@ class MyDocument extends Document {
           />
 
           <meta charSet='utf-8' />
-          <meta name='language' content='English' />
+
           <meta name='viewport' content='width=device-width, initial-scale=1' />
           <meta name='theme-color' content='#000000' />
-          <link rel='canonical' href='https://websom.dev' />
+          <link rel='canonical' href='https://websom.dev/blog' />
 
           <title>
-            Web Design Agency & Web Development Solutions In Somalia | websom
+            Web Design and Development Solutions In Somalia | websom
           </title>
           <meta
             name='title'
-            content='Web Design Agency & Web Development Solutions In Somalia | websom'
+            content='Web Design and Development Solutions In Somalia | websom'
           />
           <meta
             name='description'
@@ -57,7 +57,7 @@ class MyDocument extends Document {
           {/* <!-- Google / Search Engine Tags --> */}
           <meta
             itemProp='name'
-            content='Web Design Agency & Web Development Solutions In Somalia | websom'
+            content='Web Design and Development Solutions In Somalia | websom'
           />
           <meta
             itemProp='description'
@@ -70,7 +70,7 @@ class MyDocument extends Document {
           <meta property='og:type' content='website' />
           <meta
             property='og:title'
-            content='Web Design Agency & Web Development Solutions In Somalia | websom'
+            content='Web Design and Development Solutions In Somalia | websom'
           />
           <meta
             property='og:description'
@@ -85,7 +85,7 @@ class MyDocument extends Document {
           <meta name='twitter:card' content='summary_large_image' />
           <meta
             name='twitter:title'
-            content='Web Design Agency & Web Development Solutions In Somalia | websom'
+            content='Web Design and Development Solutions In Somalia | websom'
           />
           <meta
             name='twitter:description'
