@@ -30,47 +30,75 @@ class MyDocument extends Document {
           />
 
           <meta charSet='utf-8' />
-          <meta name="language" content="English"/>
+          <meta name='language' content='English' />
           <meta name='viewport' content='width=device-width, initial-scale=1' />
           <meta name='theme-color' content='#000000' />
           <link rel='canonical' href='https://websom.dev/' />
-        
-        <meta
-          name='keywords'
-          content='software development, web development, web design, seo optimization, marketing branding, e-commerce, geel tech, geeltech, websom, web som, web designing, web, web development company, somali, web development company in somalia'
-        />
-        <meta
-          name='description'
-          content='We are one of the most effective Web Development Companies in Somalia'
-        />
-        <meta name="robots" content= "index, follow"/>
-        <link rel='icon' href='/favicon.png' />
 
-        <title>Web Design Agency & Web Development Solutions In Somalia | websom</title>
-        <meta name='title' content='Web Design Agency & Web Development Solutions In Somalia | websom' />
-        <meta name="description" content="We are one of the most effective Web Development Companies in Somalia"/>
+          <meta
+            name='keywords'
+            content='software development, web development, web design, seo optimization, marketing branding, e-commerce, geel tech, geeltech, websom, web som, web designing, web, web development company, somali, web development company in somalia'
+          />
+          <meta
+            name='description'
+            content='We are one of the most effective Web Development Companies in Somalia'
+          />
+          <meta name='robots' content='index, follow' />
+          <link rel='icon' href='/favicon.png' />
 
-        {/* <!-- Google / Search Engine Tags --> */}
-        <meta itemprop="name" content="Web Design Agency & Web Development Solutions In Somalia | websom"/>
-        <meta itemprop="description" content="We are one of the most effective Web Development Companies in Somalia"/>
-        <meta itemprop="image" content="https://www.websom.dev/favicon.png"/>
+          <title>
+            Web Design Agency & Web Development Solutions In Somalia | websom
+          </title>
+          <meta
+            name='title'
+            content='Web Design Agency & Web Development Solutions In Somalia | websom'
+          />
+          <meta
+            name='description'
+            content='We are one of the most effective Web Development Companies in Somalia'
+          />
 
-        {/* <!-- Facebook Meta Tags --> */}
-        <meta property="og:url" content="https://www.websom.dev"/>
-        <meta property="og:type" content="website"/>
-        <meta property="og:title" content="Web Design Agency & Web Development Solutions In Somalia | websom"/>
-        <meta property="og:description" content="We are one of the most effective Web Development Companies in Somalia"/>
-        <meta property="og:image" content="https://www.websom.dev/favicon.png"/>
+          {/* <!-- Google / Search Engine Tags --> */}
+          <meta
+            itemProp='name'
+            content='Web Design Agency & Web Development Solutions In Somalia | websom'
+          />
+          <meta
+            itemProp='description'
+            content='We are one of the most effective Web Development Companies in Somalia'
+          />
+          <meta itemProp='image' content='https://www.websom.dev/favicon.png' />
 
-        {/* <!-- Twitter Meta Tags --> */}
-        <meta name="twitter:card" content="summary_large_image"/>
-        <meta name="twitter:title" content="Web Design Agency & Web Development Solutions In Somalia | websom"/>
-        <meta name="twitter:description" content="We are one of the most effective Web Development Companies in Somalia"/>
-        <meta name="twitter:image" content="https://www.websom.dev/favicon.png"/>
+          {/* <!-- Facebook Meta Tags --> */}
+          <meta property='og:url' content='https://www.websom.dev' />
+          <meta property='og:type' content='website' />
+          <meta
+            property='og:title'
+            content='Web Design Agency & Web Development Solutions In Somalia | websom'
+          />
+          <meta
+            property='og:description'
+            content='We are one of the most effective Web Development Companies in Somalia'
+          />
+          <meta
+            property='og:image'
+            content='https://www.websom.dev/favicon.png'
+          />
 
-       
-
-
+          {/* <!-- Twitter Meta Tags --> */}
+          <meta name='twitter:card' content='summary_large_image' />
+          <meta
+            name='twitter:title'
+            content='Web Design Agency & Web Development Solutions In Somalia | websom'
+          />
+          <meta
+            name='twitter:description'
+            content='We are one of the most effective Web Development Companies in Somalia'
+          />
+          <meta
+            name='twitter:image'
+            content='https://www.websom.dev/favicon.png'
+          />
         </Head>
         <body>
           <Main />
