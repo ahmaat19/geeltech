@@ -14,13 +14,13 @@ const Hero = () => {
               width='200'
               height='55'
               src='/logo.png'
-              alt='websom'
+              alt='websom logo'
               className='img-fluid mx-auto text-center'
             />
           </div>
           <div className='text-center my-4'>
             <h1 className='fw-bold display-5'>
-              Empowering Business with Innovation
+              Empowering Business Growth With The Power Of Web Development
             </h1>
             <p className='fs-5 pt-3'>
               We help the most admired brands in Somalia in building digital

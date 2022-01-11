@@ -33,7 +33,7 @@ class MyDocument extends Document {
 
           <meta name='viewport' content='width=device-width, initial-scale=1' />
           <meta name='theme-color' content='#000000' />
-          <link rel='canonical' href='https://websom.dev/blog' />
+          <link rel='canonical' href='https://websom.dev/' />
 
           <title>
             Web Design and Development Solutions In Somalia | websom
@@ -44,12 +44,12 @@ class MyDocument extends Document {
           />
           <meta
             name='description'
-            content='We are one of the most effective Web Development Companies in Somalia'
+            content='We are one of the most effective Web Design and Web Development Companies in Somalia'
           />
 
           <meta
             name='keywords'
-            content='software development, web development, web design, seo optimization, marketing branding, e-commerce, websom, web som, web designing, web, web development company, somali, web development company in somalia'
+            content='Web, Mobile, Web Mobile, App, Development Company, App Development, Web Development, Mobile Application Development Company, Mobile Application Development, agency, Design Agency, Digital Age, Digital Agency, Web Design Development Agency, Web Design, eCommerce, Websites, Website, Websom, Web Som, websom, websom.dev, websomdev, dev, Design, Web Solutions, Empowering Business Growth With The Power Of Web Development, Business Growth, Business, Growth, Software Development Company, Web Development Company, Custom Software Development, custom software development company, Custom Web, Custom Design, Somalia, Web Design Company in Somalia, Somali Web Design, Somali Web Development'
           />
           <meta name='robots' content='index, follow' />
           <link rel='icon' href='/favicon.png' />
