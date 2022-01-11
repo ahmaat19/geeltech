@@ -49,10 +49,29 @@ class MyDocument extends Document {
 
           <meta
             name='keywords'
-            content='Web, Mobile, Web Mobile, App, Development Company, App Development, Web Development, Mobile Application Development Company, Mobile Application Development, agency, Design Agency, Digital Age, Digital Agency, Web Design Development Agency, Web Design, eCommerce, Websites, Website, Websom, Web Som, websom, websom.dev, websomdev, dev, Design, Web Solutions, Empowering Business Growth With The Power Of Web Development, Business Growth, Business, Growth, Software Development Company, Web Development Company, Custom Software Development, custom software development company, Custom Web, Custom Design, Somalia, Web Design Company in Somalia, Somali Web Design, Somali Web Development'
+            content='Web, Mobile, Web Mobile, App, Development Company, App Development, Web Development, Mobile Application Development Company, Mobile Application Development, agency, Design Agency, Digital Age, Digital Agency, Web Design Development Agency, Web Design, eCommerce, Websites, Website, Websom, Web Som, websom, websom.dev, websomdev, dev, Design, Web Solutions, Empowering Business Growth With The Power Of Web Development, Business Growth, Business, Growth, Software Development Company, Web Development Company, Custom Software Development, custom software development company, Custom Web, Custom Design, Somalia, Web Design Company in Somalia, Somali Web Design, Somali Web Development, SEO Optimization, Marketing, Branding, E-commerce, Development'
           />
           <meta name='robots' content='index, follow' />
           <link rel='icon' href='/favicon.png' />
+          <link
+            rel='shortcut icon'
+            type='image/vnd.microsoft.icon'
+            href='/favicon.png'
+          />
+          <link rel='apple-touch-icon' type='image/png' href='/favicon.png' />
+          <link
+            rel='apple-touch-icon'
+            type='image/png'
+            sizes='72x72'
+            href='/favicon.png'
+          />
+          <link
+            rel='apple-touch-icon'
+            type='image/png'
+            sizes='114x114'
+            href='/favicon.png'
+          />
+          <link rel='icon' type='image/png' href='/favicon.png' />
 
           {/* <!-- Google / Search Engine Tags --> */}
           <meta

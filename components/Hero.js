@@ -19,8 +19,8 @@ const Hero = () => {
             />
           </div>
           <div className='text-center my-4'>
-            <h1 className='fw-bold display-5'>
-              Empowering Business Growth With The Power Of Web Development
+            <h1 className='fw-bold display-6'>
+              We Offer Modern Web Solutions For Growing Your Business
             </h1>
             <p className='fs-5 pt-3'>
               We help the most admired brands in Somalia in building digital
