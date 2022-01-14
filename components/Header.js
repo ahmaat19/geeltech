@@ -48,7 +48,7 @@ const Header = () => {
           </Link>
         </li>
 
-        <li className='nav-item'>
+        {/* <li className='nav-item'>
           <a
             className='nav-link btn btn-primary btn-sm rounded-pill shadow-lg py-1 mt-1 border border-secondary'
             aria-current='page'
@@ -56,7 +56,7 @@ const Header = () => {
           >
             <FaEnvelope className='icon-color mb-1' /> info@websom.dev
           </a>
-        </li>
+        </li> */}
       </ul>
     </>
   )
@@ -77,7 +77,7 @@ const Header = () => {
               />
             </a>
           </Link>
-          <button
+          {/* <button
             className='navbar-toggler'
             type='button'
             data-bs-toggle='collapse'
@@ -87,11 +87,11 @@ const Header = () => {
             aria-label='Toggle navigation'
           >
             <span className='navbar-toggler-icon'></span>
-          </button>
-          <div className='collapse navbar-collapse' id='navbarSupportedContent'>
-            <ul className='navbar-nav sr-auto mb-2 mb-lg-0'></ul>
-            {guestLinks}
-          </div>
+          </button> */}
+          {/* <div className='collapse navbar-collapse' id='navbarSupportedContent'> */}
+          <ul className='navbar-nav sr-auto mb-2 mb-lg-0'></ul>
+          {guestLinks}
+          {/* </div> */}
         </div>
       </nav>
     </>

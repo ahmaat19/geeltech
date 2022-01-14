@@ -32,7 +32,7 @@ nav {
   color: var(--secondary-color) !important;
 }
 .nav-link:hover {
-  color: var(--white-color) !important;
+  color: #8f8f8f !important;
 }
 .navbar-toggler {
   border: 0;
@@ -118,4 +118,27 @@ p {
   height: 22px;
   content: ' ';
   transform: rotate(-90deg);
+}
+
+/* Blog posts */
+.card .image-wrapper {
+  width: 100%;
+}
+.card .image-wrapper div {
+  position: unset !important;
+}
+
+.card .image {
+  object-fit: contain;
+  width: 100% !important;
+  position: relative !important;
+  height: unset !important;
+}
+
+.list-items {
+  transition: 0.2s ease-in-out;
+}
+.list-items:hover {
+  background-color: var(--secondary-color) !important;
+  border-radius: 5px;
 }

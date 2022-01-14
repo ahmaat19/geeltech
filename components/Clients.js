@@ -87,7 +87,6 @@ const Clients = () => {
                 priority
                 width='130'
                 height='50'
-                style={{ minHeight: '1rem' }}
                 src='/images/valleyseedenterprise.png'
                 alt='valley seed enterprise'
                 className='img-fluid'

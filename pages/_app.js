@@ -1,6 +1,7 @@
 // import { useEffect } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import '../styles/globals.css'
+import Layout from '../components/Layout'
 
 function MyApp({ Component, pageProps }) {
   // useEffect(() => {
@@ -10,7 +11,9 @@ function MyApp({ Component, pageProps }) {
   // }, [])
   return (
     <>
-      <Component {...pageProps} />
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
     </>
   )
 }

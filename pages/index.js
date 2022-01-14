@@ -8,8 +8,6 @@ import Process from '../components/Process'
 import Contact from '../components/Contact'
 import Hero from '../components/Hero'
 import Clients from '../components/Clients'
-import Header from '../components/Header'
-import Footer from '../components/Footer'
 
 export default function Home() {
   useEffect(() => {
@@ -35,16 +33,14 @@ export default function Home() {
           content='Web Design and Development Solutions In Somalia | websom'
         />
       </Head>
-      <Header />
-      <main className='my-5 py-5 container'>
+      <div className='my-5 py-5'>
         <Hero />
         <About />
         <Clients />
         <Services />
         <Process />
         <Contact />
-      </main>
-      <Footer />
+      </div>
     </>
   )
 }
