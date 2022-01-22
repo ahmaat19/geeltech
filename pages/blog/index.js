@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Link from 'next/link'
 import path from 'path'
 import fs from 'fs'
 import matter from 'gray-matter'
