@@ -1,12 +1,9 @@
-import React from 'react'
-import Link from 'next/link'
 import Head from 'next/head'
 import Image from 'next/image'
 import moment from 'moment'
 import {
   FacebookIcon,
   FacebookShareButton,
-  FacebookShareCount,
   TwitterIcon,
   TwitterShareButton,
   WhatsappIcon,
@@ -16,7 +13,7 @@ import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
 import marked from 'marked'
-import { FaFacebookSquare, FaTwitterSquare, FaUserAlt } from 'react-icons/fa'
+import { FaUserAlt } from 'react-icons/fa'
 
 const PostDetails = ({ post, slug, content }) => {
   return (
@@ -30,12 +27,13 @@ const PostDetails = ({ post, slug, content }) => {
             content={post.description}
             key='description'
           />
+          <meta name='description' content={post.description} />
         </Head>
 
         <div className='row'>
           <div className='col-md-9 col-12 mx-auto'>
             <div className='card-body'>
-              <h5 className='card-title fs-1 fw-bold'>{post.title}</h5>
+              <h1 className='card-title fs-1 fw-bold'>{post.title}</h1>
 
               <div className='row'>
                 <div className='col-md-7'>
