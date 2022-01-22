@@ -58,21 +58,27 @@ const PostDetails = ({ post, slug, content }) => {
                 <div className='col-md-5 '>
                   {slug && (
                     <div className='float-end'>
-                      <FacebookShareButton url={`https://websom.dev/${slug}`}>
+                      <FacebookShareButton
+                        url={`https://websom.dev/blog/${slug}`}
+                      >
                         <FacebookIcon
                           size={28}
                           round={true}
                           className='mb-1 custom-text-primary'
                         />
                       </FacebookShareButton>
-                      <TwitterShareButton url={`https://websom.dev/${slug}`}>
+                      <TwitterShareButton
+                        url={`https://websom.dev/blog/${slug}`}
+                      >
                         <TwitterIcon
                           size={28}
                           round={true}
                           className='mb-1 custom-text-primary mx-1'
                         />
                       </TwitterShareButton>
-                      <WhatsappShareButton url={`https://websom.dev/${slug}`}>
+                      <WhatsappShareButton
+                        url={`https://websom.dev/blog/${slug}`}
+                      >
                         <WhatsappIcon
                           size={28}
                           round={true}
