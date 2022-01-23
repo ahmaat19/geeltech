@@ -1,22 +1,27 @@
-import Head from 'next/head'
 import path from 'path'
 import fs from 'fs'
 import matter from 'gray-matter'
 import PostCard from '../../components/posts/PostCard'
 import Widget from '../../components/posts/Widget'
+import Meta from '../../components/Meta'
 
 const Blog = ({ posts }) => {
   return (
     <>
-      <Head>
-        <title>Websom - Blog</title>
-        <meta content='Websom - Web Desing and Web DevelopmentBlog' />
+      <Meta
+        title='Blog'
+        description='Our latest news, updates, and stories for web design, development, and more.'
+        url='https://websom.dev/blog/'
+        author='Ahmed Ibrahim'
+      />
 
-        <meta
-          name='description'
-          content='Web Design and Web Development Blog by Websom'
-        />
-      </Head>
+      <div className='text-center my-5'>
+        <h1 className='text-center'>Blog</h1>
+        <p>
+          Our latest news, updates, and stories for web design, development, and
+          more.
+        </p>
+      </div>
 
       <div className='row'>
         <div className='col-md-8 col-12'>
