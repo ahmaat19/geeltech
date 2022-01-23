@@ -3,7 +3,7 @@
     title: "Full-Stack Web Developer Roadmap in 2022"
     tag: ['backend', 'frontend', 'full-stack', 'roadmap']
     createdAt: '2022-01-15'
-    image: '/posts/full stack roadmap.jpg'
+    image: '/posts/full-stack-roadmap.jpg'
     description: 'Noqo full-stack web developer isla sanadkaan 2022.
     Waxaan isku dayi doonaa in aan idinka siiyo xog sidii aad ku noqon lahayd full-stack web developer sanadkaaan 2022.'
 ---

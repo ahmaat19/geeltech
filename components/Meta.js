@@ -69,7 +69,7 @@ const Meta = (props) => {
       />
       <meta
         itemProp='image'
-        content={props.image ? props.image : image}
+        content={props.image ? `https://websom.dev${props.image}` : image}
         key='g:image'
       />
 
@@ -92,7 +92,7 @@ const Meta = (props) => {
       />
       <meta
         property='og:image'
-        content={props.image ? props.image : image}
+        content={props.image ? `https://websom.dev${props.image}` : image}
         key='og:image'
       />
 
@@ -110,7 +110,7 @@ const Meta = (props) => {
       />
       <meta
         name='twitter:image'
-        content={props.image ? props.image : image}
+        content={props.image ? `https://websom.dev${props.image}` : image}
         key='twitter:image'
       />
     </Head>
