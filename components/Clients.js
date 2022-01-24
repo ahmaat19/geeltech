@@ -16,8 +16,8 @@ const Clients = () => {
           </div>
         </div>
 
-        <div className='row gy-4 mt-4'>
-          <div className='col-6 col-sm-6 col-md-3 col-lg-2 col-12 mx-auto'>
+        <div className='row g-0 mt-4'>
+          <div className='col-lg-2 col-md-3 col-6 mx-auto'>
             <a
               href='http://yardimelihospital.so'
               target='blank'
@@ -25,29 +25,29 @@ const Clients = () => {
             >
               <Image
                 priority
-                width='130'
-                height='50'
-                src='/images/yardimeli.png'
+                width='100'
+                height='100'
+                src='/images/clients/yardimeli.png'
                 alt='yardimeli'
                 className='img-fluid'
               />
             </a>
           </div>
 
-          <div className='col-6 col-sm-6 col-md-3 col-lg-2 col-12 mx-auto'>
+          <div className='col-lg-2 col-md-3 col-6 mx-auto'>
             <a href='http://cerid.so' target='blank' className='nav-link'>
               <Image
                 priority
-                width='130'
-                height='50'
-                src='/images/cerid.png'
+                width='100'
+                height='100'
+                src='/images/clients/cerid.png'
                 alt='cerid'
                 className='img-fluid'
               />
             </a>
           </div>
 
-          <div className='col-6 col-sm-6 col-md-3 col-lg-2 col-12 mx-auto'>
+          <div className='col-lg-2 col-md-3 col-6 mx-auto'>
             <a
               href='http://farshaxan.media'
               target='blank'
@@ -55,29 +55,29 @@ const Clients = () => {
             >
               <Image
                 priority
-                width='130'
-                height='50'
-                src='/images/farshaxan.png'
+                width='100'
+                height='100'
+                src='/images/clients/farshaxan.png'
                 alt='farshaxan'
                 className='img-fluid'
               />
             </a>
           </div>
 
-          <div className='col-6 col-sm-6 col-md-3 col-lg-2 col-12 mx-auto'>
+          <div className='col-lg-2 col-md-3 col-6 mx-auto'>
             <a href='http://samtec.so' target='blank' className='nav-link'>
               <Image
                 priority
-                width='130'
-                height='50'
-                src='/images/samtec.png'
+                width='100'
+                height='100'
+                src='/images/clients/samtec.png'
                 alt='samtec'
                 className='img-fluid'
               />
             </a>
           </div>
 
-          <div className='col-6 col-sm-6 col-md-3 col-lg-2 col-12 mx-auto'>
+          <div className='col-lg-2 col-md-3 col-6 mx-auto'>
             <a
               href='http://valleyseedenterprise.com'
               target='blank'
@@ -85,22 +85,38 @@ const Clients = () => {
             >
               <Image
                 priority
-                width='130'
-                height='50'
-                src='/images/valleyseedenterprise.png'
+                width='100'
+                height='100'
+                src='/images/clients/valleyseed.png'
                 alt='valley seed enterprise'
                 className='img-fluid'
               />
             </a>
           </div>
-          <div className='col-6 col-sm-6 col-md-3 col-lg-2 col-12 mx-auto'>
+          <div className='col-lg-2 col-md-3 col-6 mx-auto'>
             <a href='http://wirdo.org' target='blank' className='nav-link'>
               <Image
                 priority
-                width='130'
-                height='50'
-                src='/images/wirdo.png'
-                alt='wirdo'
+                width='100'
+                height='100'
+                src='/images/clients/wirdo.png'
+                alt='wirdo organization'
+                className='img-fluid'
+              />
+            </a>
+          </div>
+          <div className='col-lg-2 col-md-3 col-6 mx-auto'>
+            <a
+              href='http://ligomedical.com'
+              target='blank'
+              className='nav-link'
+            >
+              <Image
+                priority
+                width='100'
+                height='100'
+                src='/images/clients/ligomedical.png'
+                alt='ligo medical'
                 className='img-fluid'
               />
             </a>
