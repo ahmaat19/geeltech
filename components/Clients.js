@@ -6,7 +6,7 @@ const Clients = () => {
     <div id='clients' className='pt-5'>
       <div className='container mt-3 text-center'>
         <div className='row'>
-          <div className='col-lg-8 col-md-9 col-12'>
+          <div className='col-lg-8 col-md-9 col-12 mx-auto'>
             <h2 className='fw-bold'> Our Clients </h2>
             <p className='fs-6 '>
               The image is important, but the quality with which it is made,
