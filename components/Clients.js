@@ -6,7 +6,7 @@ const Clients = () => {
     <div id='clients' className='pt-5'>
       <div className='container mt-3 text-center'>
         <div className='row'>
-          <div className='col-lg-8 col-md-9 col-12 mx-auto'>
+          <div className='col-lg-8 col-md-9 col-12'>
             <h2 className='fw-bold'> Our Clients </h2>
             <p className='fs-6 '>
               The image is important, but the quality with which it is made,
@@ -17,7 +17,7 @@ const Clients = () => {
         </div>
 
         <div className='row g-0 mt-4'>
-          <div className='col-lg-2 col-md-3 col-6 mx-auto'>
+          <div className='col-lg-2 col-md-3 col-6'>
             <a
               href='http://yardimelihospital.so'
               target='blank'
@@ -34,7 +34,7 @@ const Clients = () => {
             </a>
           </div>
 
-          <div className='col-lg-2 col-md-3 col-6 mx-auto'>
+          <div className='col-lg-2 col-md-3 col-6'>
             <a href='http://cerid.so' target='blank' className='nav-link'>
               <Image
                 priority
@@ -47,7 +47,7 @@ const Clients = () => {
             </a>
           </div>
 
-          <div className='col-lg-2 col-md-3 col-6 mx-auto'>
+          <div className='col-lg-2 col-md-3 col-6'>
             <a
               href='http://farshaxan.media'
               target='blank'
@@ -64,7 +64,7 @@ const Clients = () => {
             </a>
           </div>
 
-          <div className='col-lg-2 col-md-3 col-6 mx-auto'>
+          <div className='col-lg-2 col-md-3 col-6'>
             <a href='http://samtec.so' target='blank' className='nav-link'>
               <Image
                 priority
@@ -77,7 +77,7 @@ const Clients = () => {
             </a>
           </div>
 
-          <div className='col-lg-2 col-md-3 col-6 mx-auto'>
+          <div className='col-lg-2 col-md-3 col-6'>
             <a
               href='http://valleyseedenterprise.com'
               target='blank'
@@ -93,7 +93,7 @@ const Clients = () => {
               />
             </a>
           </div>
-          <div className='col-lg-2 col-md-3 col-6 mx-auto'>
+          <div className='col-lg-2 col-md-3 col-6'>
             <a href='http://wirdo.org' target='blank' className='nav-link'>
               <Image
                 priority
@@ -105,7 +105,7 @@ const Clients = () => {
               />
             </a>
           </div>
-          <div className='col-lg-2 col-md-3 col-6 mx-auto'>
+          <div className='col-lg-2 col-md-3 col-6'>
             <a
               href='http://ligomedical.com'
               target='blank'
@@ -117,6 +117,22 @@ const Clients = () => {
                 height='100'
                 src='/images/clients/ligomedical.png'
                 alt='ligo medical'
+                className='img-fluid'
+              />
+            </a>
+          </div>
+          <div className='col-lg-2 col-md-3 col-6'>
+            <a
+              href='http://mamosbusiness.com'
+              target='blank'
+              className='nav-link'
+            >
+              <Image
+                priority
+                width='100'
+                height='100'
+                src='/images/clients/mamos.png'
+                alt='mamos business'
                 className='img-fluid'
               />
             </a>
