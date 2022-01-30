@@ -1,11 +1,13 @@
 import Head from 'next/head'
+import { useRouter } from 'next/router'
 
 const Meta = (props) => {
+  const router = useRouter()
   const title = 'Web Design and Development Solutions In Somalia | websom'
   const description =
     'We are one of the most effective Web Development Companies in Somalia'
   const image = 'https://www.websom.dev/favicon.png'
-  const url = 'https://www.websom.dev'
+  const url = `https://www.websom.dev${router.asPath}`
   const author = 'websom'
 
   return (
@@ -14,7 +16,7 @@ const Meta = (props) => {
 
       <meta name='viewport' content='width=device-width, initial-scale=1' />
       <meta name='theme-color' content='#000000' />
-      <link rel='canonical' href='https://websom.dev/' />
+      <link rel='canonical' href={url} />
 
       <title>{props.title ? props.title : title}</title>
       <meta
@@ -74,11 +76,7 @@ const Meta = (props) => {
       />
 
       {/* <!-- Facebook Meta Tags --> */}
-      <meta
-        property='og:url'
-        content={props.url ? props.url : url}
-        key='og:url'
-      />
+      <meta property='og:url' content={url} key='og:url' />
       <meta property='og:type' content='website' />
       <meta
         property='og:title'
