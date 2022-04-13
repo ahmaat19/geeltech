@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { FaBlog, FaEnvelope } from 'react-icons/fa'
-import Image from 'next/image'
+// import Image from 'next/image'
 
 const Header = () => {
   const guestLinks = (
@@ -65,7 +65,7 @@ const Header = () => {
     <>
       <nav className='navbar navbar-expand-sm navbar-dark custom-bg-primary sticky-top'>
         <div className='container'>
-          <Link className='navbar-brand' href='/'>
+          {/* <Link className='navbar-brand' href='/'>
             <a>
               <Image
                 priority
@@ -76,7 +76,7 @@ const Header = () => {
                 alt='logo'
               />
             </a>
-          </Link>
+          </Link> */}
           {/* <button
             className='navbar-toggler'
             type='button'

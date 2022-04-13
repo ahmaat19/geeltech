@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaArrowAltCircleDown, FaArrowAltCircleRight } from 'react-icons/fa'
-import Image from 'next/image'
+// import Image from 'next/image'
 import Link from 'next/link'
 
 const Hero = () => {
@@ -8,7 +8,7 @@ const Hero = () => {
     <header id='home' className=''>
       <div className='row'>
         <div className='col-lg-8 col-md-9 col-12 mx-auto pb-5'>
-          <div className='text-center'>
+          {/* <div className='text-center'>
             <Image
               priority
               width='200'
@@ -17,7 +17,7 @@ const Hero = () => {
               alt='websom logo'
               className='img-fluid mx-auto text-center'
             />
-          </div>
+          </div> */}
           <div className='text-center my-4'>
             <h1 className='fw-bold display-6'>
               We Offer Modern Web Solutions For Growing Your Business
